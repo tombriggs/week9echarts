@@ -12,7 +12,7 @@
        <div id="container" style="height: 100%"></div>
        <script type="text/javascript">
 
-d3.json("../exerciseData.json").then(function (Data) {
+d3.json("exerciseData.json").then(function (Data) {
 
     let dom = document.getElementById("container"); // select container
     let treeMap = echarts.init(dom); // initiate echarts object
